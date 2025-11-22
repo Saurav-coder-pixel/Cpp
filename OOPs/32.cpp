@@ -83,7 +83,7 @@ int main() {
     counter.display_stats();
 
     cout << "\n";
-    cout<<"Saurav Kumar"<<endl<< " 16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 }

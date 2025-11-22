@@ -30,36 +30,42 @@
 // }
 
 
-// #include <stdio.h>
 
-// void merge(int a[], int l, int m, int r) {
-//     int i=l, j=m+1, k=l, b[50];
-//     while(i<=m && j<=r) {
-//         if(a[i] < a[j]) b[k++] = a[i++];
-//         else b[k++] = a[j++];
-//     }
-//     while(i<=m) b[k++] = a[i++];
-//     while(j<=r) b[k++] = a[j++];
-//     for(i=l;i<=r;i++) a[i] = b[i];
-// }
 
-// void mergeSort(int a[], int l, int r) {
-//     if(l<r) {
-//         int m = (l+r)/2;
-//         mergeSort(a, l, m);
-//         mergeSort(a, m+1, r);
-//         merge(a, l, m, r);
-//     }
-// }
 
-// int main() {
-//     int a[] = {56,77,23,99,68,11,9,29,33,45,10,87};
-//     int n = 12, i;
-//     mergeSort(a, 0, n-1);
 
-//     printf("Merge Sort: ");
-//     for(i=0;i<n;i++) printf("%d ", a[i]);
-// }
+#include <stdio.h>
+
+void merge(int a[], int l, int m, int r) {
+    int i=l, j=m+1, k=l, b[50];
+    while(i<=m && j<=r) {
+        if(a[i] < a[j]) b[k++] = a[i++];
+        else b[k++] = a[j++];
+    }
+    while(i<=m) b[k++] = a[i++];
+    while(j<=r) b[k++] = a[j++];
+    for(i=l;i<=r;i++) a[i] = b[i];
+}
+
+void mergeSort(int a[], int l, int r) {
+    if(l<r) {
+        int m = (l+r)/2;
+        mergeSort(a, l, m);
+        mergeSort(a, m+1, r);
+        merge(a, l, m, r);
+    }
+}
+
+int main() {
+    int a[] = {56,77,23,99,68,11,9,29,33,45,10,87};
+    int n = 12, i;
+    mergeSort(a, 0, n-1);
+
+    printf("Merge Sort: ");
+    for(i=0;i<n;i++) printf("%d ", a[i]);
+}
+
+
 
 
 
@@ -94,6 +100,9 @@
 // }
 
 
+
+
+
 // #include <stdio.h>
 
 // int main() {
@@ -115,6 +124,8 @@
 // }
 
 
+
+
 // #include <stdio.h>
 
 // int main() {
@@ -124,7 +135,8 @@
 //     for(i=0;i<n-1;i++) {
 //         for(j=0;j<n-i-1;j++) {
 //             if(a[j] > a[j+1]) {
-//                 temp = a[j]; a[j] = a[j+1]; a[j+1] = temp;
+//                 temp = a[j]; 
+//                 a[j] = a[j+1]; a[j+1] = temp;
 //             }
 //         }
 //     }
@@ -134,25 +146,25 @@
 // }
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int a[] = {56,77,23,99,68,11,9,29,33,45,10,87};
-    int n = 12, i, j, min, temp;
+// int main() {
+//     int a[] = {56,77,23,99,68,11,9,29,33,45,10,87};
+//     int n = 12, i, j, min, temp;
 
-    for(i=0; i<n-1; i++) {
-        min = i;
-        for(j=i+1; j<n; j++) {
-            if(a[j] < a[min])
-                min = j;
-        }
-        temp = a[i];
-        a[i] = a[min];
-        a[min] = temp;
-    }
+//     for(i=0; i<n-1; i++) {
+//         min = i;
+//         for(j=i+1; j<n; j++) {
+//             if(a[j] < a[min])
+//                 min = j;
+//         }
+//         temp = a[i];
+//         a[i] = a[min];
+//         a[min] = temp;
+//     }
 
-    printf("Selection Sort: ");
-    for(i=0;i<n;i++) printf("%d ", a[i]);
-}
+//     printf("Selection Sort: ");
+//     for(i=0;i<n;i++) printf("%d ", a[i]);
+// }
 
 

@@ -76,7 +76,7 @@ int main() {
     cout << "\n-----------------------------------" << endl;
     cout << "Total number of customers: " << customer_count << endl;
 
-    cout << "\nSaurav Kumar\n16\n";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 }

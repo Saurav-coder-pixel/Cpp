@@ -37,6 +37,6 @@ int main() {
     cout << "Area of triangle with sides 3, 4, 5: " << calculator.AREA(3.0f, 4.0f, 5.0f) << endl;
 
     cout << "\n";
-    cout<<"Saurav Kumar"<<endl<< "16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
     return 0;
 }

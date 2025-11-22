@@ -93,7 +93,7 @@ int main() {
     merger.display_file(merger.get_merged_filename());
 
     cout << "\n";
-    cout<<"Saurav Kumar"<<endl<< " 16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 }

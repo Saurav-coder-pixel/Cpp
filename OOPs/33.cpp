@@ -87,7 +87,7 @@ int main() {
     remover.display_file_content("output_no_space.txt");
 
     cout << "\n";
-    cout<<"Saurav Kumar"<<endl<< " 16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 } 

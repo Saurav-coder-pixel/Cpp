@@ -54,7 +54,7 @@ int main() {
     reader.display_word_by_word();
 
     cout << "\n";
-    cout<<"Saurav Kumar"<<endl<< " 16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 }

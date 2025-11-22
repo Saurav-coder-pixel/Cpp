@@ -74,7 +74,7 @@ int main() {
 
     s_read.display_data();
 
-    cout << "\nSaurav Kumar" << endl << "16" << endl;
+    cout<<"\nMayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 }

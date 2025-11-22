@@ -74,6 +74,6 @@ int main() {
 
     cout << "\n--- Displaying Tape Data ---" << endl;
     t1.putdata();
-    cout<<"Saurav Kumar"<<endl<< " 16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
     return 0;
 }

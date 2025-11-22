@@ -57,7 +57,7 @@ int main() {
     myFileObject.read_data();
 
     cout << "\n";
-    cout<<"Saurav Kumar"<<endl<< " 16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
 
     return 0;
 }

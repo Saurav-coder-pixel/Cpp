@@ -48,6 +48,6 @@ int main() {
     cout << "\n--- Point Summary ---" << endl;
     p1.display_coordinates();
     p1.display_distance();
-    cout<<"Saurav Kumar"<<endl<< "16";
+    cout<<"Mayank Kumar"<<endl<< "IT(Eve)";
     return 0;
 }
